@@ -1,0 +1,7 @@
+# 旧路径兼容与规范化
+
+# 不带斜杠的目录访问统一补斜杠（保持 canonical 一致）
+/articles /articles/ 301
+
+# 常见文章旧链接占位（未来如果改过 slug，在这里加 301 保持不丢权重）
+# /旧-slug.html /articles/新-slug.html 301

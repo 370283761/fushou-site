@@ -1,0 +1,6 @@
+# Cloudflare Pages 配置
+# 纯静态站，无构建步骤：构建命令留空，输出目录就是仓库根目录
+
+name = "fushou-site"
+pages_build_output_dir = "."
+compatibility_date = "2026-11-16"

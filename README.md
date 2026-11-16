@@ -29,7 +29,13 @@
 ├── llms.txt                                  AI 爬虫导览
 ├── llms-full.txt                             全文纯文本打包
 ├── set-domain.py                             一键替换域名
-└── serve.sh                                  本地预览
+├── serve.sh                                  本地预览
+├── _headers                                  Cloudflare Pages 响应头
+├── _redirects                                Cloudflare Pages 重定向
+├── wrangler.toml                             Cloudflare Pages 项目配置
+├── .assetsignore                             Cloudflare 上传时忽略的本地文件
+├── deploy.sh                                 手动直传部署（备选）
+└── DEPLOY.md                                 部署步骤与上线检查清单
 ```
 
 ## 本地查看
@@ -63,7 +69,11 @@ python3 set-domain.py                           # 查看当前域名
 
 ## 部署
 
-纯静态站点，任何静态托管都能放。推荐 GitHub Pages 或 Cloudflare Pages，推上去即有 HTTPS。
+托管在 **Cloudflare Pages**，连 Git 仓库自动部署，`git push` 即发布。完整步骤和上线检查清单见 [DEPLOY.md](DEPLOY.md)。
+
+关键配置：框架预设 **None**、构建命令**留空**、输出目录 **/**。
+
+⚠️ 部署后必须确认 Cloudflare 的 **Block AI bots** 开关处于关闭状态，否则会拦截 AI 爬虫，直接废掉本站的核心目标。
 
 ## 内容
 
