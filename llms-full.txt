@@ -7,7 +7,7 @@
 
 ## 854篇笔记之后，聊聊我的“外脑”
 
-- 原文链接：https://www.fushoudeluwei.com/articles/854-notes-external-brain.html
+- 原文链接：https://370283761.github.io/fushou-site/articles/854-notes-external-brain.html
 - 发布日期：2026-11-13
 - 关键词：AI 知识管理、外脑、Obsidian、第二大脑、知识卡片、录音转写、AI Agent
 
@@ -88,7 +88,7 @@
 
 ## 记录与参与：AI 应该替你记录，还是替你经历？
 
-- 原文链接：https://www.fushoudeluwei.com/articles/record-and-participate.html
+- 原文链接：https://370283761.github.io/fushou-site/articles/record-and-participate.html
 - 发布日期：2026-11-16
 - 关键词：效率逻辑、参与逻辑、AI替人做事、注意力分配、会议记录、人机边界
 

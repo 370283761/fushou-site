@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>俯首的芦苇</title>
-    <link>https://www.fushoudeluwei.com/</link>
+    <link>https://370283761.github.io/fushou-site/</link>
     <description>一个产品经理的 AI 使用记录。记录自己使用 AI 的过程：搭过什么、踩过什么坑、哪些真的留下来了。</description>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 16 Nov 2026 12:00:00 +0800</lastBuildDate>
-    <atom:link href="https://www.fushoudeluwei.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://370283761.github.io/fushou-site/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
       <title>记录与参与：AI 应该替你记录，还是替你经历？</title>
-      <link>https://www.fushoudeluwei.com/articles/record-and-participate.html</link>
-      <guid isPermaLink="true">https://www.fushoudeluwei.com/articles/record-and-participate.html</guid>
+      <link>https://370283761.github.io/fushou-site/articles/record-and-participate.html</link>
+      <guid isPermaLink="true">https://370283761.github.io/fushou-site/articles/record-and-participate.html</guid>
       <pubDate>Mon, 16 Nov 2026 09:00:00 +0800</pubDate>
       <author>俯首的芦苇</author>
       <category>人机边界</category>
@@ -20,8 +20,8 @@
 
     <item>
       <title>854篇笔记之后，聊聊我的“外脑”</title>
-      <link>https://www.fushoudeluwei.com/articles/854-notes-external-brain.html</link>
-      <guid isPermaLink="true">https://www.fushoudeluwei.com/articles/854-notes-external-brain.html</guid>
+      <link>https://370283761.github.io/fushou-site/articles/854-notes-external-brain.html</link>
+      <guid isPermaLink="true">https://370283761.github.io/fushou-site/articles/854-notes-external-brain.html</guid>
       <pubDate>Fri, 13 Nov 2026 09:00:00 +0800</pubDate>
       <author>俯首的芦苇</author>
       <category>AI 知识管理</category>

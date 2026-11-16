@@ -91,4 +91,4 @@ Allow: /
 User-agent: Diffbot
 Allow: /
 
-Sitemap: https://www.fushoudeluwei.com/sitemap.xml
+Sitemap: https://370283761.github.io/fushou-site/sitemap.xml

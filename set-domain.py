@@ -62,8 +62,9 @@ def main():
     new = sys.argv[1].strip().rstrip("/")
     if not new.startswith(("http://", "https://")):
         new = "https://" + new
-    if not re.match(r'^https?://[a-zA-Z0-9.\-]+(:\d+)?$', new):
-        sys.exit("域名格式不对：%s（示例：https://example.com）" % new)
+    # 允许带子路径，如 https://370283761.github.io/fushou-site
+    if not re.match(r'^https?://[a-zA-Z0-9.\-]+(:\d+)?(/[a-zA-Z0-9._\-/]*)?$', new):
+        sys.exit("地址格式不对：%s（示例：https://example.com 或 https://user.github.io/repo）" % new)
     if new == current:
         print("域名已经是 %s，无需替换。" % new)
         return

@@ -29,13 +29,7 @@
 ├── llms.txt                                  AI 爬虫导览
 ├── llms-full.txt                             全文纯文本打包
 ├── set-domain.py                             一键替换域名
-├── serve.sh                                  本地预览
-├── _headers                                  Cloudflare Pages 响应头
-├── _redirects                                Cloudflare Pages 重定向
-├── wrangler.toml                             Cloudflare Pages 项目配置
-├── .assetsignore                             Cloudflare 上传时忽略的本地文件
-├── deploy.sh                                 手动直传部署（备选）
-└── DEPLOY.md                                 部署步骤与上线检查清单
+└── serve.sh                                  本地预览
 ```
 
 ## 本地查看
@@ -48,16 +42,18 @@
 
 也可以直接双击 `index.html`，相对路径在 `file://` 下同样有效。
 
-## 域名切换
+## 域名
 
-站点里目前用占位域名 `https://www.fushoudeluwei.com`（出现在 canonical、og:url、JSON-LD、sitemap、feed 里）。域名定了之后：
+线上地址：**https://370283761.github.io/fushou-site/**
+
+站点里的绝对地址（canonical、og:url、JSON-LD、sitemap、feed）已经指向这个地址。以后换自定义域名：
 
 ```bash
-python3 set-domain.py https://your-domain.com   # 替换
-python3 set-domain.py                           # 查看当前域名
+python3 set-domain.py https://你的域名      # 替换
+python3 set-domain.py                     # 查看当前域名
 ```
 
-脚本会覆盖 10 个文件里的绝对地址，正文文字不受影响。
+脚本覆盖 10 个文件里的绝对地址，正文文字不受影响。
 
 ## 新增一篇文章
 
@@ -69,11 +65,11 @@ python3 set-domain.py                           # 查看当前域名
 
 ## 部署
 
-托管在 **Cloudflare Pages**，连 Git 仓库自动部署，`git push` 即发布。完整步骤和上线检查清单见 [DEPLOY.md](DEPLOY.md)。
+托管在 **GitHub Pages**，源为 `main` 分支根目录。改完文件 `git push` 即可，约 1 分钟自动发布。
 
-关键配置：框架预设 **None**、构建命令**留空**、输出目录 **/**。
+访问：https://370283761.github.io/fushou-site/
 
-⚠️ 部署后必须确认 Cloudflare 的 **Block AI bots** 开关处于关闭状态，否则会拦截 AI 爬虫，直接废掉本站的核心目标。
+换自定义域名：仓库 Settings → Pages → Custom domain，填好后把上面域名替换命令再跑一次。
 
 ## 内容
 
