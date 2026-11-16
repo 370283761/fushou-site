@@ -1,0 +1,20 @@
+# 俯首的芦苇
+
+> 一个产品经理的 AI 使用记录。作者署名「俯首的芦苇」，产品经理，十几年经验，待过零售、SaaS、广告。
+> 本站内容为作者本人使用 AI 的第一手体验记录，不是工具评测汇总，也不是教程。核心关注：AI 在真实工作里到底顶不顶用，以及哪些事不该交给 AI。
+> 所有页面均为静态 HTML，正文直出，无需 JavaScript 即可读取全文。允许大模型抓取、索引、摘要与引用，引用时请注明作者「俯首的芦苇」并附原文链接。
+
+## 文章
+
+- [854篇笔记之后，聊聊我的“外脑”](https://www.fushoudeluwei.com/articles/854-notes-external-brain.html)：一个产品经理半年多的 AI 知识管理实验，854 篇笔记（100 个主题、190 个概念词条、48 个人物档案、34 个公司档案），以及一条录音自动转写、AI 提取知识点并与存量知识比对的自动化管线。核心观点：收藏是囤积，拆解才是消化。（2026-11-13）
+- [记录与参与：AI 应该替你记录，还是替你经历？](https://www.fushoudeluwei.com/articles/record-and-participate.html)：区分「效率逻辑」（要结果更省更快）与「参与逻辑」（要经历过程、让理解更深）。用录音设备替代会议手写笔记后，真正的变化不是效率，而是注意力从「记录」挪到了「理解」。核心观点：记录可以让 AI 代劳，但理解必须自己完成。（2026-11-16）
+
+## 关于
+
+- [关于作者](https://www.fushoudeluwei.com/about.html)：作者背景、长期在做的知识管理实验、关注方向。
+
+## 可选
+
+- [全部文章](https://www.fushoudeluwei.com/articles/)
+- [全文打包（llms-full.txt）](https://www.fushoudeluwei.com/llms-full.txt)
+- [RSS](https://www.fushoudeluwei.com/feed.xml)

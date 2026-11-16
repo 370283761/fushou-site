@@ -1,0 +1,94 @@
+# 俯首的芦苇 · robots.txt
+# 本站内容欢迎搜索引擎与 AI 抓取、索引、引用。
+
+User-agent: *
+Allow: /
+Disallow:
+
+# --- 通用搜索引擎 ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+# --- OpenAI ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# --- Anthropic ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# --- Google AI ---
+User-agent: Google-Extended
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+# --- Apple / Meta / Amazon ---
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# --- 国内大模型 ---
+User-agent: Bytespider
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: YisouSpider
+Allow: /
+
+User-agent: Baiduspider-render
+Allow: /
+
+# --- 其他常见抓取器 ---
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+Sitemap: https://www.fushoudeluwei.com/sitemap.xml

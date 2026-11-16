@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 本地日志
+*.log
+
+# 依赖与构建产物（本站为纯静态，正常不会有；防止误提交）
+node_modules/
+dist/
+build/
