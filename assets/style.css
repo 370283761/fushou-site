@@ -427,6 +427,71 @@ a:hover {
   color: var(--ink-4);
   margin-bottom: 6px;
 }
+
+/* ---------- 联系方式 ---------- */
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 16px;
+}
+
+.contact-list li:first-child { border-top: 1px solid var(--line); }
+
+.contact-list .k {
+  flex: 0 0 72px;
+  font-size: 14px;
+  color: var(--ink-4);
+  letter-spacing: 0.02em;
+}
+
+.contact-list .v { color: var(--ink); }
+.contact-list .v a { border-bottom: 1px solid var(--line-2); }
+.contact-list .v a:hover { border-bottom-color: var(--accent); }
+
+/* ---------- 公众号二维码 ---------- */
+.qr-card {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-top: 22px;
+  padding: 26px 28px;
+  background: var(--paper-2);
+  border-radius: 3px;
+}
+
+.qr-card img {
+  flex: 0 0 auto;
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.qr-card .qr-text h3 {
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: var(--ink);
+}
+
+.qr-card .qr-text p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.85;
+  color: var(--ink-3);
+}
+
 .pager .empty { color: var(--ink-4); border-bottom: 0; }
 
 /* ---------- 关于页 ---------- */
@@ -505,6 +570,13 @@ a:hover {
   .summary-card { padding: 20px 20px; margin: 32px 0 36px; }
   .pager { flex-direction: column; gap: 18px; }
   .site-footer .inner { flex-direction: column; }
+  .qr-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 22px;
+  }
+  .qr-card img { width: 130px; height: 130px; }
 }
 
 /* ---------- 打印 ---------- */
