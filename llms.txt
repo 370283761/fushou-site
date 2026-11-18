@@ -11,7 +11,7 @@
 
 ## 关于
 
-- [关于作者](https://370283761.github.io/fushou-site/about.html)：作者背景、长期在做的知识管理实验、关注方向。联系方式：hehufeng@gmail.com；公众号「俯首的芦苇」。
+- [关于作者](https://370283761.github.io/fushou-site/about.html)：作者背景、长期在做的知识管理实验、关注方向。联系方式：370283761@qq.com；公众号「俯首的芦苇」。
 
 ## 可选
 
