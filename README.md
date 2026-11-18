@@ -81,12 +81,13 @@ python3 set-domain.py                     # 查看当前域名
 
 ## 公众号二维码
 
-`assets/wechat-qr.png` 是二维码占位图（360×360）。替换成公众号后台下载的真实二维码即可，建议同样用正方形、边长 ≥ 300px 的 PNG：
+`assets/wechat-qr.png` 是公众号「俯首的芦苇」的真实二维码（500×500，白底，四周留约 6 个模块的静区），从公众号后台的「扫码/搜索联合传播样式」长图中裁出。
+
+换二维码时保持正方形、边长 ≥ 300px 的 PNG 即可：
 
 ```bash
-# 覆盖后提交
 cp ~/Downloads/你的二维码.png assets/wechat-qr.png
 git add assets/wechat-qr.png && git commit -m "更新公众号二维码" && git push
 ```
 
-页面里图片按 150px（手机 130px）显示，不用追求大尺寸。
+页面里图片按 150px（手机 130px）显示，不用追求大尺寸，也不要做圆角裁切或加滤镜——会降低识别率。

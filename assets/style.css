@@ -475,6 +475,7 @@ a:hover {
   display: block;
   border-radius: 2px;
   background: #fff;
+  border: 1px solid var(--line);
 }
 
 .qr-card .qr-text h3 {
