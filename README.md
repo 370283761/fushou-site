@@ -21,8 +21,12 @@
 ├── articles/
 │   ├── index.html                            全部文章
 │   ├── 854-notes-external-brain.html         《854篇笔记之后，聊聊我的"外脑"》
-│   └── record-and-participate.html           《记录与参与》
-├── assets/style.css                          全站样式
+│   ├── record-and-participate.html           《记录与参与》
+│   └── ai-and-teams.html                     《带AI之后，我重新理解了带团队》
+├── assets/
+│   ├── style.css                             全站样式
+│   ├── wechat-qr.png                         公众号二维码
+│   └── img/                                  文章配图（封面 + 正文图）
 ├── robots.txt                                抓取规则（放行 AI 与搜索引擎）
 ├── sitemap.xml                               站点地图
 ├── feed.xml                                  RSS
@@ -31,6 +35,8 @@
 ├── set-domain.py                             一键替换域名
 └── serve.sh                                  本地预览
 ```
+
+正文图默认按 65% 宽居中（`@media` 手机端改通栏），不要直接通栏铺满。
 
 ## 本地查看
 

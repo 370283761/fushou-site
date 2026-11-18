@@ -348,6 +348,21 @@ a:hover {
 
 .prose li { margin-bottom: 10px; }
 
+/* 正文插图：信息图按 65% 宽居中，不通栏 */
+.prose figure {
+  margin: 40px 0 42px;
+  text-align: center;
+}
+
+.prose figure img {
+  width: 65%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+  display: block;
+  margin: 0 auto;
+}
+
 .prose blockquote {
   margin: 34px 0;
   padding: 4px 0 4px 22px;
@@ -578,6 +593,9 @@ a:hover {
     padding: 22px;
   }
   .qr-card img { width: 130px; height: 130px; }
+  /* 手机上 65% 宽会让图内文字看不清，信息图改为通栏 */
+  .prose figure { margin: 32px 0 34px; }
+  .prose figure img { width: 100%; }
 }
 
 /* ---------- 打印 ---------- */

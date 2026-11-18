@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>带AI之后，我重新理解了带团队｜俯首的芦苇</title>
+<meta name="description" content="几个AI同时开工，方案一份比一份完整，合起来却跑不起来。带AI和带团队撞上同一个问题：执行的人越多，目标模糊制造的返工就越多。三条具体做法：先对齐目标、把边界说清、动手前写验收。">
+<meta name="author" content="俯首的芦苇">
+<meta name="keywords" content="带AI, 带团队, 目标对齐, 任务边界, 验收标准, 架构编排, AI协作, 返工">
+<link rel="canonical" href="https://370283761.github.io/fushou-site/articles/ai-and-teams.html">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="俯首的芦苇">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="带AI之后，我重新理解了带团队">
+<meta property="og:description" content="执行的人越多，目标模糊制造的返工就越多。把执行交出去，不等于把责任也交出去。">
+<meta property="og:url" content="https://370283761.github.io/fushou-site/articles/ai-and-teams.html">
+<meta property="og:image" content="https://370283761.github.io/fushou-site/assets/img/cover-ai-teams.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="511">
+<meta property="article:published_time" content="2026-11-18">
+<meta property="article:author" content="俯首的芦苇">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="带AI之后，我重新理解了带团队">
+<meta name="twitter:description" content="执行的人越多，目标模糊制造的返工就越多。">
+<meta name="twitter:image" content="https://370283761.github.io/fushou-site/assets/img/cover-ai-teams.jpg">
+
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="俯首的芦苇" href="../feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="../llms.txt">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://370283761.github.io/fushou-site/articles/ai-and-teams.html#article",
+      "headline": "带AI之后，我重新理解了带团队",
+      "description": "一次评审会让作者意识到，所有人都在认真做自己的部分，合起来却跑不通。开始同时指挥几个 AI 之后，同样的失效重演：执行的人越多，目标模糊制造的返工就越多。",
+      "image": "https://370283761.github.io/fushou-site/assets/img/cover-ai-teams.jpg",
+      "inLanguage": "zh-CN",
+      "datePublished": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "wordCount": 1349,
+      "author": {
+        "@type": "Person",
+        "name": "俯首的芦苇",
+        "jobTitle": "产品经理",
+        "url": "https://370283761.github.io/fushou-site/about.html"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "俯首的芦苇",
+        "url": "https://370283761.github.io/fushou-site/"
+      },
+      "mainEntityOfPage": "https://370283761.github.io/fushou-site/articles/ai-and-teams.html",
+      "keywords": ["带AI", "带团队", "目标对齐", "任务边界", "验收标准", "架构编排", "返工"],
+      "about": [
+        { "@type": "Thing", "name": "人机协作" },
+        { "@type": "Thing", "name": "团队管理" }
+      ],
+      "isPartOf": { "@id": "https://370283761.github.io/fushou-site/#blog" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://370283761.github.io/fushou-site/" },
+        { "@type": "ListItem", "position": 2, "name": "文章", "item": "https://370283761.github.io/fushou-site/articles/" },
+        { "@type": "ListItem", "position": 3, "name": "带AI之后，我重新理解了带团队" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap-wide inner">
+    <a class="brand" href="../index.html">俯首的芦苇</a>
+    <nav class="nav" aria-label="主导航">
+      <a href="index.html">文章</a>
+      <a href="../about.html">关于</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <article>
+
+      <header class="article-head">
+        <div class="crumb">
+          <a href="../index.html">首页</a><span class="sep">/</span><a href="index.html">文章</a>
+        </div>
+        <h1>带AI之后，我重新理解了带团队</h1>
+        <div class="byline">
+          <span class="author">俯首的芦苇</span>
+          <span class="dot">·</span>
+          <time datetime="2026-11-18">2026年11月18日</time>
+          <span class="dot">·</span>
+          <span>约 5 分钟阅读</span>
+        </div>
+      </header>
+
+      <div class="summary-card">
+        <h2>本文要点</h2>
+        <p>一次评审会让作者意识到：每个人都在认真做自己的部分，每份方案单独看也都成立，可放在一起就是跑不起来。后来同时指挥几个 AI，同样的失效重演了——<strong>执行的人越多，目标模糊制造的返工就越多</strong>。文章给出三条具体做法，也指出带 AI 与带团队最关键的差别。</p>
+        <ul>
+          <li>先对齐目标再分任务，尤其要说清「什么暂时不做」</li>
+          <li>边界不是限制，是减少返工的成本：「你看着办」是要有人付账的</li>
+          <li>说不出怎么验收，往往说明还没想清楚自己要什么</li>
+          <li>结论句：把执行交出去，不等于把责任也交出去</li>
+        </ul>
+      </div>
+
+      <div class="prose">
+
+        <p>评审会上，一份方案被投到屏幕上。</p>
+        <p>「这版挺完整的。」有人说。</p>
+        <p>「是太完整了。」另一个同事接了一句，「我们现在要先把链路跑通，不是把后面的能力也一次装进来。」</p>
+        <p>会议室安静了几秒。</p>
+        <p>负责业务的人关心流程能不能闭环，负责技术的人关心系统能不能扩展，负责数据的人关心以后还能不能接住。每个人说得都有道理，每份方案单独看也都成立。</p>
+        <p>可放在一起，就是跑不起来。</p>
+        <p>我听着听着才发现，大家都在回答「怎样把自己的部分做好」，却没有先回答「我们现在要一起完成什么」。</p>
+        <p>后来，我开始同时让AI处理几件事。</p>
+        <p>任务分得很快，结果也交得很快。一份比一份完整，一份比一份漂亮。但只要我没有先说清楚目标，它们就会各自找一个合理的方向，认真走下去。</p>
+        <p>那种熟悉的感觉又回来了。</p>
+        <p><strong>原来带AI和带团队，都会遇到同一个问题：执行的人越多，目标模糊制造的返工就越多。</strong></p>
+        <h2>一、先对齐目标，再分任务</h2>
+        <p>以前交代任务，我也会说：把这个方案优化一下。</p>
+        <p>这句话听起来很省事，其实把很多问题留给了别人。为什么优化？给谁看？现在最需要解决什么？哪些内容先不做？</p>
+        <p>有经验的同事会追问，或者凭对我的了解补一个判断。AI也可能补，只是它补出来的方向，不一定是我想要的。</p>
+        <p>现在我会把三句话放在任务前面：为什么做，给谁用，什么暂时不做。</p>
+        <p><strong>尤其是「什么暂时不做」。</strong></p>
+        <p>一份方案写得很完整，不一定是好事。有时它恰恰说明，大家还没有一起做减法。</p>
+        <h2>二、边界不是限制，是少返工</h2>
+        <p>带团队时，边界模糊，有人会来问一句：这个要不要动？</p>
+        <p>AI也会问，但更多时候，它会先根据自己的理解往下走。补全流程、调整结构、扩展功能，它都能做。</p>
+        <p><strong>可能做，不等于应该做。</strong></p>
+        <p>所以我现在会把边界写成三句话：你可以决定什么；遇到什么必须回来确认；什么不许碰。</p>
+        <p>这三句话听起来有点像管理文档，没有「你看着办」那么洒脱。</p>
+        <p>但「你看着办」是有成本的。过去这个成本由同事的默契承担，现在则可能由AI生成的一堆返工承担。</p>
+        <h2>三、验收不能只是「感觉差点意思」</h2>
+        <p>方案交回来，我也说过：感觉还差点意思。</p>
+        <p>对方问差在哪里，我却说不上来。</p>
+        <p>于是人继续改，AI继续生成，版本越来越多。每一版都像是在努力，但没有人知道哪一版更接近目标。</p>
+        <p><strong>后来我才明白，如果你说不出怎么验收，很可能你还没想清楚自己要什么。</strong></p>
+        <p>现在动手前，我会先写验收：这条流程能不能跑通？不同模块能不能接上？读者能不能看懂？这次要解决的问题，有什么结果可以确认？</p>
+        <p>标准不一定完美，至少大家知道往哪里改。</p>
+
+        <figure>
+          <img src="../assets/img/goal-boundary-acceptance.jpg" alt="目标、边界、验收三个横向节点的流程图：目标对应为什么做、给谁用、什么暂时不做；边界对应能决定什么、何时回来确认、什么不许碰；验收对应如何确认完成" width="1000" height="562" loading="lazy">
+        </figure>
+
+        <h2>四、但AI不会替你承担责任</h2>
+        <p>带AI和带团队，也有最不像的地方。</p>
+        <p>团队成员会犹豫，会反对，会因为责任心主动补位。AI可以模拟讨论，却不真正承担结果。</p>
+        <p>你可以让它列风险，让它检查方案，让它给出反对意见。但最后决定做不做、承担什么后果，仍然是人的事。</p>
+        <p><strong>把执行交出去，不等于把责任也交出去。</strong></p>
+        <p>我在团队里负责架构编排。过去我以为自己最重要的是协调进度，现在越来越多时间花在三件更前面的事：共同目标、任务之间的边界、最后的验收口径。</p>
+        <p>这些事看起来不如推进度具体，却决定了后面是真正并行，还是各自努力之后一起返工。</p>
+        <p><strong>带AI之后，我反而更理解团队了。</strong></p>
+        <p>那些我以为不用讲的东西，不是大家天然知道，而是很多人用经验、默契和责任心，替我补过。</p>
+        <p>现在再看到一份特别完整的方案，我会多问一句：哪些内容，是我们这个阶段决定不做的？</p>
+        <p>你用AI时，也遇到过「每一步都对，合起来不对」吗？</p>
+      </div>
+
+      <footer class="article-foot">
+        <div class="author-box">
+          <div class="avatar" aria-hidden="true">芦</div>
+          <div class="info">
+            <p class="name">俯首的芦苇</p>
+            <p>产品经理，十几年经验，待过零售、SaaS、广告。这里记录我自己使用 AI 的过程：搭过什么、踩过什么坑、哪些真的留下来了。</p>
+            <p>邮件：<a href="mailto:370283761@qq.com">370283761@qq.com</a></p>
+          </div>
+        </div>
+
+        <div class="qr-card">
+          <img src="../assets/wechat-qr.png" alt="俯首的芦苇 微信公众号二维码" width="150" height="150">
+          <div class="qr-text">
+            <h3>关注公众号「俯首的芦苇」</h3>
+            <p>新文章会先发在公众号。这里收录的是已发表的完整版本，方便检索和长期保存。</p>
+          </div>
+        </div>
+
+        <nav class="pager" aria-label="文章导航">
+          <a href="record-and-participate.html">
+            <span class="label">上一篇</span>
+            记录与参与：AI 应该替你记录，还是替你经历？
+          </a>
+          <span class="empty">
+            <span class="label">下一篇</span>
+            还没写
+          </span>
+        </nav>
+      </footer>
+
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap-wide inner">
+    <span>© 2026 俯首的芦苇</span>
+    <span class="links">
+      <a href="index.html">全部文章</a>
+      <a href="../about.html">关于</a>
+      <a href="mailto:370283761@qq.com">邮箱</a>
+      <a href="../feed.xml">RSS</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>
